@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    max-width: 2000px;
+    margin: auto;
+    font-size: 16px;
+    background-color: cornsilk;
+}
+
+    @media(max-width:768px){
+        body{
+            font-size: 16px;
+        }
+    }
+    @media(max-width:480px){
+        body{
+            font-size: 15px;
+        }
+    }
+
+header {
+    background: antiquewhite;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1,h2{
+    text-align: center;
+}
+img{
+    display: flex;
+    margin: auto;
+    height: 200;
+    width: 300;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background: antiquewhite;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+article{
+    width: 200px;
+    text-align: justify;
+    padding-bottom: 50px;
+    color: #333;
+    text-indent: 3px;
+    padding-left: 43px;
+}
+
+form input[type="submit"]:hover {
+    background: antiquewhite;
+}
+.angola{
+    padding-left: 40px;
+}
+button{
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    background-color:antiquewhite ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px,20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: burlywood;
+    color: white;
+    text-decoration: underline;
+}
+footer{
+    background-color: #333;
+    color: white;
+    border-radius: 2px;
+}

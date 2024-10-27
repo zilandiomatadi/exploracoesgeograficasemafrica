@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorações</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    position: relative;
+}
+.menu-icon{
+    font-size: 29px;
+    cursor: pointer;
+    padding: 10px;
+}
+.menu{
+    display: none;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 200px;
+    border-radius: 5px;
+    z-index: 100;
+}
+.menu li{
+    border-bottom: 1px solid #444;
+}
+.menu li:last-child{
+    border-bottom: none;
+}
+.menu a{
+    color: lightgrey;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: white;
+}
+
+</style>
+<body>
+    <div class="menu-container">
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exploracoes.html">Explorações</a></li>
+                <li><a href="populacaoidiomas.html">População e Idiomas</a></li>
+                <li><a href="relevo.html">Relevo de África</a></li>
+                <li><a href="clima.html">Clima de África</a></li>
+                <li><a href="regiao.html">Regiões de África</a></li>
+                <li><a href="exploracoesemangola.html">Explorações Geográficas Em Angola</a></li>
+                <li><a href="economiaangola.html">Economia de Angola</a></li>
+                <li><a href="exploradoes.html">Principais Exploradores</a></li>
+                <li><a href="curiosidades.html">Curiosidades Sobre Angola</a></li>
+            </ul>
+  
+        </div>
+    <div class="terra">
+        <a href="mapa--frica1-k1k6dohipk.jpg" target="_blank"><img src="mapa--frica1-k1k6dohipk.jpg" alt="Mapa de África" title="mapa de África depois da divisão arbitrária,na conferência de Berlim,que iniciou em 1884 e só terminou no ano seguinte participaram nela 18 países em que na qual 13 são países europeus,Turquía e Estados Unidos" width="300" height="200"></a>
+        <article>África é o berço da humanidade, pois há indícios de que o continente foi o primeiro a ser habitado por humanos.</article>
+        <a href="Reconstruction_of_the_fossil_skeleton_of__Lucy__the_Australopithecus_afarensis.jpg" target="_blank"><img src="Reconstruction_of_the_fossil_skeleton_of__Lucy__the_Australopithecus_afarensis.jpg" alt="Foto dos ossos de Lucy" title="Semelhante ao macaco da espécie Australopithecus afaransis, Lucy viveu em África há mais de três milhões de anos. Foi desenterrado na Etiópia em 1974. Estava 40% completo e com 47 dos 207 ossos intactos." width="300" height="200" class="angola"></a>
+        <article class="angola">Em África foram encontrados diversos fósseis que comprovam essa teoria e também posibiitaram o estudo da evolução humana. Estima-se que a porção norte seja a amais antiga do mundo.</article>
+        <a href="com-chegada-dos-europeus-movimentos-resistencia-surgiram-em-diversas-partes-continente-africano-598346b4af4b2.jpg"><img src="com-chegada-dos-europeus-movimentos-resistencia-surgiram-em-diversas-partes-continente-africano-598346b4af4b2.jpg" alt="Foto da libertação de África" title="Foto da libertação de África" width="300" height="200" class="foto"></a>
+        <article>Foi após a segunda guerra mundial que as colônias africanas iniciaram o seu processo de independência. Contudo, o continente ainda vive diversos conflitos territoiais e religiosos.</article>
+    </div>
+    <footer>Esse site foi criado por estudantes do <abbr title="Instituto Politécnico Industrial Do Zango">IPIZ</abbr> </footer>
+     <script src="script.js"></script>
+</body>
+</html>
